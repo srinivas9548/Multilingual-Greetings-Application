@@ -1,0 +1,9 @@
+.language-greeting-item {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.image {
+  width: 280px;
+}

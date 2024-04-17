@@ -1,0 +1,33 @@
+.language-item {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .language-item {
+    margin-right: 40px;
+  }
+}
+
+.language-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #db1c48;
+  font-weight: 500;
+  background-color: #ffffff;
+  border: 1px solid #db1c48;
+  border-radius: 25px;
+  padding: 8px 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .language-button {
+    padding: 10px 16px;
+  }
+}
+
+.active {
+  background-color: #db1c48;
+  color: #ffffff;
+}
